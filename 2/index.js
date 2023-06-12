@@ -9,8 +9,7 @@ Check.addEventListener("click", ()=> {
     let number_1 = Num_1.value;
     let number_2 = Num_2.value;
 
-    number_1 > number_2? Texto.textContent = number_1 + " es mayor " : Texto.textContent = number_2 + " Es mayor"
-
+    number_1 > number_2? Texto.textContent = number_1 + " es mayor " + "y " + number_2 + " es menor" : Texto.textContent = number_2 + " es mayor " + "y " + number_1 + " es menor" 
     Num_1.value = "";
     Num_2.value = "";
 
